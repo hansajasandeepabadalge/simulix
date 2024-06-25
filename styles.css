@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Login-bg.jpeg);
+}
+
+.ca-container {
+    color: #fff; /* White color for the text */
+}
+
+.ca-container a {
+    color: #00E0FF; /* Cyan color for the link */
+}
+
+.container {
+    width: 500px; /* Increased container width */
+    padding: 32px; /* Increased container padding */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 40px; /* Increased heading font size */
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.invalidmsg{
+    color: red;
+
+}
+
+label {
+    font-size: 18px; /* Increased label font size */
+    margin-bottom: 8px;
+    color: #4B4B4B;
+}
+
+input {
+    font-size: 16px; /* Increased input font size */
+    padding: 12px; /* Increased input padding */
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; /* Input width is 100% of the container */
+}
+button {
+    font-size: 18px; /* Increased button font size */
+    padding: 16px; /* Increased button padding */
+    background-color: #2C2C2C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 16px; /* Increased paragraph font size */
+    margin-top: 16px;
+    text-align: center;
+}
+
+.name-group {
+    display: flex;
+    justify-content: space-between;
+}
+.name-group > div {
+    flex: 1;
+    margin-right: 10px;
+}
+.name-group > div:last-child {
+    margin-right: 0;
+}
