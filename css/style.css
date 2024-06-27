@@ -522,7 +522,17 @@ ol {
 -----------------------*/
 .work {
   overflow: hidden;
-  background: #100028;
+  background: #9680b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.work iframe{
+  width: 100%;
+  height: 100%;
+
 }
 
 .work__gallery {
